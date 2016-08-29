@@ -20,7 +20,19 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #77c159;
+    background-image: url("../img/madrid.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(119,193,89,0.5);  
 }
 
 #nav_f{
